@@ -1,7 +1,7 @@
 ![gogeta-banner.png](https://shiocms.github.io/shio-gogeta/gogeta-banner.png) 
 ------
 
-**Shio CMS Gogeta** - Shio CMS concepts ported to Apache Sling.
+**Shio Gogeta CMS** - Shio CMS concepts ported to Apache Sling.
 
 Shio (pronounced [strong/ʃiː/ weak/ʃɪ/ o])
 
