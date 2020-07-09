@@ -1,4 +1,4 @@
-![shio_banner.png](https://shiocms.github.io/shio/img/shio_banner.png) 
+![gogeta-banner.png](https://shiocms.github.io/shio-gogeta/gogeta-banner.png) 
 ------
 
 **Shio CMS Gogeta** - Shio CMS concepts ported to Apache Sling.
