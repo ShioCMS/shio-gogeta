@@ -28,8 +28,16 @@ Use Maven to compile Shio CMS Gogeta.
 ```shell
 $ mvn clean install
 ```
+### 2. Run
+
+To run execute.
+
+```shell
+$ cd builder/target
+$ java -jar org.apache.sling.cms.builder-0.16.3-SNAPSHOT.jar 
+```
 
 ## Shio CMS Goget
-* Administration Console: [http://localhost:8080](http://localhost:8080).
+* Administration Console: [http://localhost:8080/system/sling/form/login](http://localhost:8080/system/sling/form/login).
 
 > login/password: admin/admin
