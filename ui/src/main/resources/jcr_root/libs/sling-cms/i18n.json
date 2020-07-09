@@ -1,0 +1,174 @@
+{
+    "jcr:primaryType": "sling:OrderedFolder",
+    "jcr:content": {
+        "jcr:title": "Sling CMS"
+    },
+    "en_US": {
+        "jcr:primaryType": "sling:Folder",
+        "jcr:mixinTypes": [
+            "mix:language"
+        ],
+        "jcr:language": "en",
+        "sling:resourceType": "sling-cms/components/cms/blank",
+        "slingcms-download": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Download",
+            "sling:key": "slingcms.download"
+        },
+        "slingcms-edit": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Edit",
+            "sling:key": "slingcms.edit"
+        },
+        "slingcms-findcontent": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Find Content",
+            "sling:key": "slingcms.findcontent"
+        },
+        "slingcms-finished": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Finished",
+            "sling:key": "slingcms.finished"
+        },
+        "slingcms-insights-moredetails": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "More Details",
+            "sling:key": "slingcms.insights.moredetails"
+        },
+        "slingcms-filemetadata-title": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Extract File Metadata",
+            "sling:key": "slingcms.filemetadata.title"
+        },
+        "slingcms-htmlvalidator-danger": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "There were {0} validation errors and {1} warnings",
+            "sling:key": "slingcms.htmlvalidator.danger"
+        },
+        "slingcms-htmlvalidator-success": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "HTML Validation successful!",
+            "sling:key": "slingcms.htmlvalidator.success"
+        },
+        "slingcms-htmlvalidator-warn": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "There were {0} validation warnings",
+            "sling:key": "slingcms.htmlvalidator.warn"
+        },
+        "slingcms-jobs": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Jobs",
+            "sling:key": "slingcms.jobs"
+        },
+        "slingcms-jobs-badrequest": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Invalid Job Request",
+            "sling:key": "slingcms.jobs.badrequest"
+        },
+        "slingcms-jobs-jobremoved": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Job Removed",
+            "sling:key": "slingcms.jobs.jobremoved"
+        },
+        "slingcms-jobs-jobstarted": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Job Started",
+            "sling:key": "slingcms.jobs.jobstarted"
+        },
+        "slingcms-jobs-progress": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Job Progress",
+            "sling:key": "slingcms.jobs.progress"
+        },
+        "slingcms-jobs-progresslog": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Job Progress Logs",
+            "sling:key": "slingcms.jobs.progresslog"
+        },
+        "slingcms-jobs-name": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Job Name",
+            "sling:key": "slingcms.jobs.name"
+        },
+        "slingcms-jobs-properties": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Job Properties",
+            "sling:key": "slingcms.jobs.properties"
+        },
+        "slingcms-recentcontent": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Recent Content",
+            "sling:key": "slingcms.recentcontent"
+        },
+        "slingcms-jobs-remove": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Remove Job",
+            "sling:key": "slingcms.jobs.remove"
+        },
+        "slingcms-jobs-resultmessage": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Result Message",
+            "sling:key": "slingcms.jobs.resultmessage"
+        },
+        "slingcms-noresults": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "No Results Found",
+            "sling:key": "slingcms.noresults"
+        },
+        "slingcms-optimizefiles-title":{
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Optimize Files",
+            "sling:key": "slingcms.optimizefiles.title"
+        },
+        "slingcms-pagespeed-danger": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "This website is much slower than average, page performance must be optimized",
+            "sling:key": "slingcms.pagespeed.danger"
+        },
+        "slingcms-pagespeed-warn": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "This website is slower than average, page performance should be optimized",
+            "sling:key": "slingcms.pagespeed.warn"
+        },
+        "slingcms-pagespeed-success": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "This website has acceptable performance",
+            "sling:key": "slingcms.pagespeed.success"
+        },
+        "slingcms-readability-danger": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Failed to calculate readability for {1}",
+            "sling:key": "slingcms.readability.danger"
+        },
+        "slingcms-readability-stats": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Found {0} sentences with {1} words and {2} complex words",
+            "sling:key": "slingcms.readability.stats"
+        },
+        "slingcms-readability-success": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Readability grade {2} is between expected range: ({0}-{1})",
+            "sling:key": "slingcms.readability.success"
+        },
+        "slingcms-readability-warn": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Readability grade {2} is outside expected range: ({0}-{1})",
+            "sling:key": "slingcms.readability.warn"
+        },
+        "slingcms-started": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "Started",
+            "sling:key": "slingcms.started"
+        },
+        "slingcms-state": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "State",
+            "sling:key": "slingcms.state"
+        },
+        "slingcms-view": {
+            "jcr:primaryType": "sling:MessageEntry",
+            "sling:message": "View",
+            "sling:key": "slingcms.view"
+        }
+    }
+}

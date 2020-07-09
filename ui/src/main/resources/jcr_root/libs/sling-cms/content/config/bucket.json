@@ -1,0 +1,109 @@
+{
+    "jcr:primaryType": "sling:Page",
+    "jcr:content": {
+        "sling:resourceType": "sling-cms/components/pages/base",
+        "jcr:title": "Site Configurations",
+        "jcr:primaryType": "nt:unstructured",
+        "container": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "sling-cms/components/general/container",
+            "contentactions": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "sling-cms/components/cms/contentactions",
+                "actions": {
+                    "config": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "label": "Config",
+                        "prefix": "/cms/config/create.html"
+                    }
+                }
+            },
+            "contentbreadcrumb": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "sling-cms/components/cms/contentbreadcrumb",
+                "depth": 1,
+                "rootTitle": "Configuration"
+            },
+            "contenttable": {
+                "jcr:primaryType": "nt:unstructured",
+                "sling:resourceType": "sling-cms/components/cms/contenttable",
+                "columns": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "name": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "title": "Name"
+                    },
+                    "title": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "title": "Title"
+                    },
+                    "lastModified": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "title": "Last Modified"
+                    },
+                    "actions": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "title": "Actions"
+                    }
+                },
+                "types": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "sling:Config": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "columns": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "name": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "sling:resourceType": "sling-cms/components/cms/columns/name",
+                                "prefix": "/cms/config/edit.html",
+                                "link": true
+                            },
+                            "title": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "sling:resourceType": "sling-cms/components/cms/columns/text",
+                                "property": "jcr:title"
+                            },
+                            "lastModified": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "sling:resourceType": "sling-cms/components/cms/columns/lastmodified",
+                                "subPath": ""
+                            },
+                            "actions": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "sling:resourceType": "sling-cms/components/cms/columns/actions",
+                                "edit": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "modal": true,
+                                    "title": "Edit Config Properties",
+                                    "icon": "cog",
+                                    "prefix": "/cms/config/metadata.html"
+                                },
+                                "references": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "modal": true,
+                                    "title": "References",
+                                    "icon": "directions",
+                                    "prefix": "/cms/shared/references.html"
+                                },
+                                "movecopy": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "modal": true,
+                                    "title": "Move / Copy Config",
+                                    "icon": "move-alt",
+                                    "prefix": "/cms/shared/movecopy.html"
+                                },
+                                "delete": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "modal": true,
+                                    "title": "Delete Site Config",
+                                    "icon": "trash",
+                                    "prefix": "/cms/shared/delete.html"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
