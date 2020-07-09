@@ -1,7 +1,7 @@
 ![gogeta-banner.png](https://shiocms.github.io/shio-gogeta/gogeta-banner.png) 
 ------
 
-**Shio Gogeta CMS** - Shio CMS concepts ported to Apache Sling.
+**Shio Gogeta CMS** - Incubator project that unify main CMS concepts with simplicity using Apache Sling, OSGi and JCR with Github UI, OTDS, OTMM, OTCS and much more...
 
 Shio (pronounced [strong/ʃiː/ weak/ʃɪ/ o])
 
