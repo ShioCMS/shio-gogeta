@@ -6,7 +6,7 @@ Incubator project that unify main CMS concepts with simplicity using Apache Slin
 
 Shio (pronounced [strong/ʃiː/ weak/ʃɪ/ o])
 
-**If you'd like to contribute to Viglet Shio, be sure to review the [contribution
+**If you'd like to contribute to Shio Gogeta CMS, be sure to review the [contribution
 guidelines](CONTRIBUTING.md).**
 
 **We use [GitHub issues](https://github.com/ShioCMS/shio-gogeta/issues) for tracking requests and bugs.**
