@@ -25,7 +25,7 @@ $ cd shio-gogeta
 Use Maven to compile Shio CMS Gogeta.
 
 ```shell
-$ mvn clean install
+$ mvn -Drat.skip=true clean install
 ```
 ### Run
 
