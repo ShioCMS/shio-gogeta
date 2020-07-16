@@ -1,0 +1,16 @@
+rootProject.name = 'org.apache.sling.cms'
+include ':org.apache.sling.cms.api'
+include ':org.apache.sling.cms.core'
+include ':org.apache.sling.cms.transformer'
+include ':org.apache.sling.cms.ui'
+include ':org.apache.sling.cms.reference'
+include ':org.apache.sling.cms.builder'
+include ':org.apache.sling.cms.archetype'
+
+project(':org.apache.sling.cms.api').projectDir = "$rootDir/api" as File
+project(':org.apache.sling.cms.core').projectDir = "$rootDir/core" as File
+project(':org.apache.sling.cms.transformer').projectDir = "$rootDir/transformer" as File
+project(':org.apache.sling.cms.ui').projectDir = "$rootDir/ui" as File
+project(':org.apache.sling.cms.reference').projectDir = "$rootDir/reference" as File
+project(':org.apache.sling.cms.builder').projectDir = "$rootDir/builder" as File
+project(':org.apache.sling.cms.archetype').projectDir = "$rootDir/archetype" as File

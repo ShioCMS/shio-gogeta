@@ -1,0 +1,8 @@
+
+description = 'Apache Sling - CMS UI'
+dependencies {
+    compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version:'3.1.0'
+    compileOnly group: 'jstl', name: 'jstl', version:'1.2'
+    compileOnly group: 'org.apache.sling', name: 'org.apache.sling.scripting.jsp.taglib', version:'2.3.0'
+    compileOnly group: 'javax.servlet', name: 'jsp-api', version:'2.0'
+}

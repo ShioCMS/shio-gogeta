@@ -1,0 +1,15 @@
+
+description = 'Apache Sling - CMS API'
+dependencies {
+    compileOnly group: 'javax.servlet', name: 'servlet-api', version:'2.5'
+    compileOnly group: 'org.apache.jackrabbit', name: 'jackrabbit-api', version:'2.18.2'
+    compileOnly group: 'org.apache.sling', name: 'org.apache.sling.api', version:'2.20.0'
+    compileOnly group: 'org.apache.sling', name: 'org.apache.sling.event.api', version:'1.0.0'
+    compileOnly group: 'org.apache.sling', name: 'org.apache.sling.jcr.resource', version:'3.0.18'
+    compileOnly group: 'org.apache.commons', name: 'commons-lang3', version:'3.8.1'
+    compileOnly group: 'org.apache.jackrabbit', name: 'jackrabbit-jcr-commons', version:'2.7.5'
+    compileOnly group: 'org.osgi', name: 'osgi.annotation', version:'6.0.1'
+    compileOnly group: 'org.jetbrains', name: 'annotations', version:'16.0.2'
+    compileOnly group: 'org.jsoup', name: 'jsoup', version:'1.11.3'
+    compileOnly group: 'org.slf4j', name: 'slf4j-api', version:'1.7.25'
+}
